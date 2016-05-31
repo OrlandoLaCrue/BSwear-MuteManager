@@ -22,7 +22,7 @@ public class MuteManager extends JavaPlugin {
     private final MuteListeners mmListeners = new MuteListeners(this);
     public boolean configLoaded = false;
     public static MuteConfig config;
-    public static final String PLUGIN_NAME = "MuteManager";
+    public static final String PLUGIN_NAME = "BSwear MuteManager";
     public static final String LOG_HEADER = "[" + PLUGIN_NAME + "]";
     static final Logger LOG = Logger.getLogger("Minecraft");
     private final MuteFile muteFile = new MuteFile(this);
